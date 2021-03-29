@@ -6,9 +6,7 @@
         *   Supervised learning. (classification and regression)
         *   Unsupervised learning
         *   Reinforcement learning.
-    *   How is Starbucks using these technologies? 
-        *   Good examples: [https://digital.hbs.edu/platform-digit/submission/brewing-with-a-dash-of-data-and-analytics-starbucks/](https://digital.hbs.edu/platform-digit/submission/brewing-with-a-dash-of-data-and-analytics-starbucks/)
-    *   How is this software being used elsewhere?
+    *   How is this software being used elsewhere? **discussion**
     *   Structured data vs unstructured data
         *   Unstructured: NLP, computer vision
         *   Structured: financial forecasting, voter forecasting, and most other tasks.  
