@@ -30,7 +30,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 
 # Load the data
-heart_dataset = pd.read_csv('../../datasets/uci-heart-disease/heart.csv')
+heart_dataset = pd.read_csv('../datasets/uci-heart-disease/heart.csv')
 
 # Print basic info about the data
 print(heart_dataset.head())

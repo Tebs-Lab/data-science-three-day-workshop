@@ -46,7 +46,7 @@ from sklearn.model_selection import train_test_split
 
 # We're using a "relative file path" to load data that is bundled with this
 # repository
-heart_dataset = pd.read_csv('../../datasets/uci-heart-disease/heart.csv')
+heart_dataset = pd.read_csv('../datasets/uci-heart-disease/heart.csv')
 
 # These functions produce information about the loaded dataset.
 # The print function (built into python) sends it to our terminal.
