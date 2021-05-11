@@ -1,5 +1,8 @@
 #!/bin/bash
 
+## This script installs the nessesary libraries and opens up ssh to password only.
+## Use this script at creation time of the instance on the AWS Console.
+
 # Install The CLI
 yes | snap install aws-cli --classic
 
