@@ -190,3 +190,6 @@ Thumbs.db #thumbnail cache on Windows
 
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python,macos
+
+# TMP?!
+Pipfile
