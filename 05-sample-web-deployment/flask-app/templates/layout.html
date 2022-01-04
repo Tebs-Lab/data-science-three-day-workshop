@@ -1,0 +1,14 @@
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block static_import %}
+    {% endblock %}
+</head>
+
+<header>
+    <a href="/"><h1 class="logo">ML Demos</h1></a>
+</header> 
+  
+<div class="content center">
+    {% block content %}
+    {% endblock %}
+</div>

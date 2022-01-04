@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block static_import %}
+<script src="{{ url_for('static', filename='js/drawing.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="center">
+  <canvas class="center" id="canvas"></canvas>
+  <button class="center" id="submit">Predict</button>
+  <button class="center" id="clear">Clear</button>
+  <p id="results" class="text-center"></p>
+</div>
+{% endblock %}
