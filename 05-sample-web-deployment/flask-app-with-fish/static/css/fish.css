@@ -1,0 +1,15 @@
+form {
+    display: block;
+    width: 100px;
+}
+
+input {
+    display: block;
+    width: 100px;
+}
+
+label {
+    margin: 3px;
+    width: 100px;
+    display: inline-block;
+}

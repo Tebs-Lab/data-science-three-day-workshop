@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block static_import %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fish.css') }}">
+    <script src="{{ url_for('static', filename='js/fish.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="center">
+  <form class="center" method="POST" action='/fish'>
+      <label for="length1">Length 1</label>
+      <input type="number" name="length1" value="1">
+
+      <label for="length2">Length 2</label>
+      <input type="number" name="length2" value="1">
+
+      <label for="length3">Length 3</label>
+      <input type="number" name="length3" value="1">
+
+      <label for="width">Width</label>
+      <input type="number" name="width" value="1">
+
+      <label for="height">Height</label>
+      <input type="number" name="height" value="1">
+
+      <input type="submit" id="submit">
+  </form>
+  <p id="results" class="center text-center"></p>
+</div>
+{% endblock %}
