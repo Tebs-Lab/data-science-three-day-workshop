@@ -15,7 +15,7 @@ The purpose of this section is to demonstrate how a model can be built, persiste
     * Students will also need to run the code to create the persistent models!
 2. Demo the web app itself (not the code, the running instance) second.
     * Startup command from `flask-app` directory: `flask run`
-        * `FLASK_ENV=development FLASK_ENV=development flask run`
+        * `FLASK_ENV=development flask run`
         * (use export to turn on development mode for a whole shell session)
     * Reference for simple Flask startup: [https://flask.palletsprojects.com/en/2.0.x/quickstart/](https://flask.palletsprojects.com/en/2.0.x/quickstart/))
 3. Demo a little of the Flask specific stuff, enough for students to complete the micro exercise meaning:
