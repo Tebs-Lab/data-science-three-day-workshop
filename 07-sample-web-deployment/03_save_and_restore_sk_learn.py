@@ -2,6 +2,11 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 import pickle
 
+### NOTE THAT ###
+# The file paths may need to be changed depending on your working directory when you run this code.
+# This script assumes it is being run from the folder that contains this file.
+###########
+
 # Load the data
 fish_dataset = pd.read_csv('../datasets/fish/Fish.csv')
 
